@@ -65,7 +65,7 @@ Ready to start your next project? Let's discuss how we can help bring your digit
                 </div>
                 <h3 className="text-base md:text-lg font-semibold">Phone</h3>
               </div>
-              <p className="text-gray-300 text-sm">+1 (555) 123-4567</p>
+              <p className="text-gray-300 text-sm">+92 3402424569</p>
               <p className="text-gray-400 text-xs">Mon-Fri, 9 AM - 6 PM EST</p>
             </div>
 
@@ -77,8 +77,8 @@ Ready to start your next project? Let's discuss how we can help bring your digit
                 </div>
                 <h3 className="text-base md:text-lg font-semibold">Address</h3>
               </div>
-              <p className="text-gray-300 text-sm">123 Tech Street, Silicon Valley</p>
-              <p className="text-gray-300 text-sm">San Francisco, CA 94105</p>
+              <p className="text-gray-300 text-sm">Flat #5 2nd floor Navqi Naqsh Building Stadium Road Above Style Tyles</p>
+              <p className="text-gray-300 text-sm">near new town Karachi, Pakistan</p>
             </div>
 
             {/* Business Hours */}

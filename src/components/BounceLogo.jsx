@@ -3,11 +3,11 @@ import logo from "/logo.png"; // path adjust karo
 
 const BouncingLogo = () => {
   return (
-    <div className="fixe">
+    <div className="">
       <img
         src={logo}
         alt="Logo"
-        className="w-16 h-16 animate-bounce"
+        className="w-10 h-10 sm:w-12 sm:h-12 animate-bounce"
       />
     </div>
   );

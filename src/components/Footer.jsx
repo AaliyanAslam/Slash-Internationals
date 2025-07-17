@@ -2,6 +2,7 @@ import React from "react";
 import { IoDiamondOutline } from "react-icons/io5";
 import { TbWorld } from "react-icons/tb";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 
 
@@ -24,29 +25,36 @@ const Footer = () => {
             </p>
             <p>
               <span className="bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent mr-1">📞</span>
-              +1 (555) 123-4567
+              +92 3402424569
             </p>
             <p>
               <span className="bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent mr-1">📍</span>
-              San Francisco, CA 94105
+              Flat #5 2nd floor Navqi Naqsh Building Stadium Road Above Style Tyles near new town Karachi, Pakistan
             </p>
           </div>
         </div>
 
         {/* Quick Links */}
-        <div>
-          <h4 className="text-white font-semibold text-lg mb-4">Quick Links</h4>
-          <ul className="text-gray-400 text-sm space-y-2">
-            {["Home", "About", "Services", "Contact"].map((item) => (
-              <li
-                key={item}
-                className="cursor-pointer transition hover:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 hover:scale-105"
-              >
-                {item}
-              </li>
-            ))}
-          </ul>
-        </div>
+   <div>
+  <h4 className="text-white font-semibold text-lg mb-4">Quick Links</h4>
+  <ul className="text-gray-400 text-sm space-y-2">
+    {["home", "about", "service", "contact"].map((item) => (
+      <li key={item}>
+        <Link 
+          to={item}
+          smooth={true}
+          duration={500}
+          spy={true}
+          offset={-70}
+          className="cursor-pointer transition hover:text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 hover:scale-105 inline-block"
+        >
+          {item.charAt(0).toUpperCase() + item.slice(1)}
+        </Link>
+      </li>
+    ))}
+  </ul>
+</div>
+
 
         {/* Services */}
         <div>
