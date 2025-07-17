@@ -39,6 +39,27 @@ const services = [
     description: "Transforming data into actionable insights.",
   },
 ]
+// tech we master
+
+const nameArray = [
+  "React",
+  "Node.js",
+  "TypeScript",
+  "Python",
+  "AWS",
+  "Docker",
+  "Kubernetes",
+  "MongoDB",
+  "PostgreSQL",
+  "GraphQL",
+  "Next.js",
+  "Vue.js"
+];
+
+
+
+
+
 
 const About = () => {
   return (
@@ -83,7 +104,7 @@ const About = () => {
   </div>
 </div>
 
-  <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4">
+  <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-0">
   {services.map((service, i) => (
     <div
       key={i}
@@ -104,6 +125,25 @@ const About = () => {
     </div>
   ))}
 </div>
+
+<div className="max-w-5xl mx-auto mt-16 text-center px-4">
+  <p className="text-3xl font-semibold text-white mb-8">
+    Technologies We Master
+  </p>
+
+  <ul className="flex flex-wrap justify-center gap-3 text-gray-300 text-sm">
+    {nameArray.map((name, index) => (
+      <li
+        key={index}
+        className="bg-gray-800 hover:bg-gray-700 transition-colors duration-300 rounded-full py-1.5 px-3 shadow-sm"
+      >
+        {name}
+      </li>
+    ))}
+  </ul>
+</div>
+
+
 
     </section>
 
