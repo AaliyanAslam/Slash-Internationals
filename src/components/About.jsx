@@ -65,7 +65,7 @@ const About = () => {
   return (
     <section id="about" className="bg-black py-20 px-6 text-center ">
 <div className="max-w-4xl mx-auto text-white pb-12">
-      <h1 class="pb-4 text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent">
+      <h1 className="pb-4 text-5xl font-bold bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent">
  About Us
 </h1>
 

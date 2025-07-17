@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import './index.css'
 import About from './components/About'
 import Services from './components/Services'
+import Contact from './components/Contact'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
     <div>
       <About />
       <Services />
+      <Contact />
     </div>
 
     <footer className="bg-gray-800 text-white py-4">
