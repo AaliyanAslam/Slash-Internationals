@@ -4,6 +4,7 @@ import './index.css'
 import About from './components/About'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -15,13 +16,10 @@ export default function App() {
       <About />
       <Services />
       <Contact />
+      <Footer />
     </div>
 
-    <footer className="bg-gray-800 text-white py-4">
-      <div className="container mx-auto text-center">
-        <p>&copy; {new Date().getFullYear()} Slash International. All rights reserved.</p>
-      </div>
-    </footer>
+   
 
 
     
