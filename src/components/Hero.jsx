@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from 'react-scroll';
+import BouncingLogo from './BounceLogo'
 
 
 const Hero = () => {
@@ -64,9 +65,12 @@ const Hero = () => {
 
       {/* Content */}
       <div className="z-10 px-6 max-w-3xl text-white text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-500 to-blue-900 bg-clip-text text-transparent animate-fade-in mb-6">
-          Slash Internationals
-        </h1>
+     <h1 className="flex flex-wrap items-center justify-center mt-50 sm:mt-10 md:justify-start text-4xl md:text-6xl font-extrabold tracking-tight bg-gradient-to-r from-cyan-300 via-blue-500 to-blue-900 bg-clip-text text-transparent animate-fade-in mb-2">
+      Slash Internationals
+      <span className="mt-4">
+        <BouncingLogo />
+      </span>
+    </h1>
 
         <p className="text-lg md:text-2xl font-medium min-h-[3rem] animate-fade-in-slow">
           {displayedText}
@@ -112,6 +116,8 @@ const Hero = () => {
             <p className="text-sm uppercase tracking-wider mt-2">Success Rate</p>
           </div>
         </div>
+
+        
       </div>
     </section>
   );

@@ -90,15 +90,61 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden mt-2 space-y-2 pb-4 text-center">
-            <a href="#home" className="block text-white hover:text-blue-400">Home</a>
-            <a href="#about" className="block text-white hover:text-blue-400">About</a>
-            <a href="#services" className="block text-white hover:text-blue-400">Services</a>
-            <a href="#projects" className="block text-white hover:text-blue-400">Projects</a>
-            <a href="#contact" className="block text-white hover:text-blue-400">Contact</a>
-          </div>
-        )}
+      {isOpen && (
+  <div className="md:hidden mt-2 space-y-2 pb-4 text-center">
+    <Link
+      to="hero"
+      smooth={true}
+      duration={800}
+      offset={-70}
+      className="block text-white hover:text-blue-400 cursor-pointer"
+      onClick={toggleNav}
+    >
+      Home
+    </Link>
+    <Link
+      to="about"
+      smooth={true}
+      duration={800}
+      offset={-70}
+      className="block text-white hover:text-blue-400 cursor-pointer"
+      onClick={toggleNav}
+    >
+      About
+    </Link>
+    <Link
+      to="serve"
+      smooth={true}
+      duration={800}
+      offset={-70}
+      className="block text-white hover:text-blue-400 cursor-pointer"
+      onClick={toggleNav}
+    >
+      Services
+    </Link>
+    <Link
+      to="projects"
+      smooth={true}
+      duration={800}
+      offset={-70}
+      className="block text-white hover:text-blue-400 cursor-pointer"
+      onClick={toggleNav}
+    >
+      Projects
+    </Link>
+    <Link
+      to="contact"
+      smooth={true}
+      duration={800}
+      offset={-70}
+      className="block text-white hover:text-blue-400 cursor-pointer"
+      onClick={toggleNav}
+    >
+      Contact
+    </Link>
+  </div>
+)}
+
       </nav>
     </header>
   );
