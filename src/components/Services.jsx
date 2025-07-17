@@ -76,9 +76,9 @@ const services = [
 ];
 
 
-const Expertise = () => {
+const Services = () => {
   return (
-    <section id="expertise"  className="bg-[#0b0f0f] text-white py-20 px-6">
+    <section id="serve"  className="bg-[#0b0f0f] text-white py-20 px-6">
  <div className="max-w-4xl mx-auto px-4 py-8 text-center text-white">
   <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent">
     Our Services
@@ -169,4 +169,4 @@ const Expertise = () => {
   );
 };
 
-export default Expertise;
+export default Services;

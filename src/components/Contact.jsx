@@ -8,7 +8,19 @@ import { MdOutlineAccessTime } from "react-icons/md";
 
 const ContactSection = () => {
   return (
-    <section className="bg-black py-16 px-4 sm:px-6 md:px-10 text-white">
+    <section id="contact" className="bg-black py-16 px-4 sm:px-6 md:px-10 text-white">
+         <div className="max-w-4xl mx-auto px-4 py-8 text-center text-white">
+  <h1 className="text-4xl sm:text-5xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-blue-600 to-blue-900 bg-clip-text text-transparent">
+  Get In Touch
+
+
+  </h1>
+
+  <p className="max-w-3xl mx-auto text-gray-400 text-base sm:text-lg leading-relaxed">
+Ready to start your next project? Let's discuss how we can help bring your digital vision to life.
+
+  </p>
+</div>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
         
         {/* Left Side: Contact Form */}
