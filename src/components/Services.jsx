@@ -129,7 +129,7 @@ const Services = () => {
           </p>
 
           {/* CTA */}
-          <button className="w-full py-2 rounded-lg bg-gradient-to-r from-cyan-400 to-indigo-500 hover:from-cyan-600 hover:to-indigo-600 text-white font-semibold shadow-md transition-all duration-300">
+          <button className="cursor-pointer w-full py-2 rounded-lg bg-gradient-to-r from-cyan-400 to-indigo-500 hover:from-cyan-600 hover:to-indigo-600 text-white font-semibold shadow-md transition-all duration-300">
             {service.cta} →
           </button>
 

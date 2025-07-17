@@ -97,7 +97,7 @@ const About = () => {
   {/* Right Side: Image */}
   <div className="flex justify-center md:justify-end">
     <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+      src="/aboutimg.jpg"
       alt="Digital Innovation"
       className="rounded-xl max-w-full h-auto w-[90%] md:w-[100%]"
     />
